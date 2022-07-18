@@ -8,6 +8,8 @@ import ReactAudioPlayer from 'react-audio-player';
 // import Passacaglia from '../../assets/sound/Passacaglia.mp3';
 import Laugh from '../../assets/sound/Laugh.mp3';
 
+import { Bounce } from 'react-awesome-reveal'
+
 
 const Landing = () => {
     return (
@@ -23,14 +25,17 @@ const Landing = () => {
                                     <div className='container__login h-100 w-100 d-flex flex-column'>
                                         <div className='d-flex h-100 flex-column justify-content-center'>
                                             {/* Logo */}
-                                            <div className='d-flex mb-3 mt-5 mt-xl-0 mt-lg-0'>
+                                            <Bounce><div className='d-flex mb-3 mt-5 mt-xl-0 mt-lg-0'>
+                                                
                                                 <img
                                                     src={logoDark}
                                                     id='logo'
                                                     alt={"logo"}
                                                     className='flex-fill'
                                                 />
+                                               
                                             </div>
+                                            </Bounce>
                                             <div className='alert alert-success text-center'>
                                                 <b>New Server!</b>{' '}
 
