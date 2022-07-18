@@ -5,8 +5,8 @@ import logoDark from '../../assets/images/logos/logo-dark.png';
 // const images = [{ logoLight }, { logoDark }];
 
 import ReactAudioPlayer from 'react-audio-player';
-import Passacaglia from '../../assets/sound/Passacaglia.mp3';
-
+// import Passacaglia from '../../assets/sound/Passacaglia.mp3';
+import Laugh from '../../assets/sound/Laugh.mp3';
 
 
 const Landing = () => {
@@ -49,7 +49,7 @@ const Landing = () => {
                                             {/* <LoginForm /> */}
                                           <div className='d-flex justify-content-center'>
                                             <ReactAudioPlayer
-                                                src={Passacaglia}
+                                                src={Laugh}
                                                 autoPlay='true'
                                                 controls='false'
                                                 loop='true'
