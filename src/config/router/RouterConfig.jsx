@@ -15,7 +15,7 @@ function RouterConfig() {
 
             <Routes>
                 {/* Default Initial Page */}
-                <Route path="/" element={<Navigate replace to="/landing" />} />
+                <Route path="*" element={<Navigate replace to="/landing" />} />
 
                 {/* Pages Routed */}
                 <Route path="/landing" element={<Landing />} />
