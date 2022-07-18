@@ -4,11 +4,15 @@ import './Landing.css';
 import logoDark from '../../assets/images/logos/logo-dark.png';
 // const images = [{ logoLight }, { logoDark }];
 
+import ReactAudioPlayer from 'react-audio-player';
+import Passacaglia from '../../assets/sound/Passacaglia.mp3';
+
 
 
 const Landing = () => {
     return (
         <>
+
             <div id='login'>
                 <div className='column__extraLarge column__large column__medium column__small login__wrapper'>
                     <div className='row h-100-vh justify-content-xxl-center justify-content-xl-center justify-content-md-center align-items-xxl-center align-items-xl-center align-items-md-center'>
@@ -43,7 +47,16 @@ const Landing = () => {
                                             </div>
                                             {/* Login Form */}
                                             {/* <LoginForm /> */}
+                                          <div className='d-flex justify-content-center'>
+                                            <ReactAudioPlayer
+                                                src={Passacaglia}
+                                                autoPlay='true'
+                                                controls='false'
+                                                loop='true'
+                                            />
+                                       </div>
                                         </div>
+
                                         {/* Register Button */}
                                         {/* <div className='d-inline-flex justify-content-center mt-4 mt-xl-0 mt-lg-0 pb-3'>
 											<a
