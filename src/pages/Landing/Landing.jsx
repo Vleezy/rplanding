@@ -2,7 +2,7 @@ import React from 'react';
 import './Landing.css';
 import logoLight from '../../assets/images/logos/logo-light.png';
 import logoDark from '../../assets/images/logos/logo-dark.png';
-const images = [{ logoLight }, { logoDark }];
+// const images = [{ logoLight }, { logoDark }];
 
 
 
