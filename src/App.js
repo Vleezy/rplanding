@@ -1,10 +1,17 @@
+import React from 'react';
 import './App.css';
+
+
+import RouterConfig from './config/router/RouterConfig';
 
 function App() {
   return (
-    <div className="App">
-    <h1>Test</h1>
-    </div>
+    <main>
+  <div>
+    <RouterConfig/>
+</div>
+</main>
+
   );
 }
 
