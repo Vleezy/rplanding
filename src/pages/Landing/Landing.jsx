@@ -43,7 +43,7 @@ const Landing = () => {
                                                 Join our{' '}
                                                 <a
                                                     className='discord--link'
-                                                    href='https://discord.gg/'
+                                                    href='https://discord.gg/jfu9dn5fhZ'
                                                 >
                                                     Discord-Server
                                                 </a>{' '}
